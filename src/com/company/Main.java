@@ -10,7 +10,7 @@ public class Main {
         Connecting and creating a local data base on Windows computer and
         Try with Resources to close automatically our resources
         */
-
+        // 
         try (Connection conn = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\Rosana&Javier\\databases\\testjava.db");
              Statement statement = conn.createStatement()) {
 
